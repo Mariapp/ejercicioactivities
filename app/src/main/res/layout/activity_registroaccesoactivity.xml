@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.didact.ejercicioactivities.registroaccesoactivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Te has registrado correctamente!!" />
+
+    <TextView
+        android:id="@+id/tvregistroaccesonombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Usuario" />
+
+    <TextView
+        android:id="@+id/tvregistroaccesocontrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Contraseña" />
+
+    <TextView
+        android:id="@+id/tvregistroaccesoemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Email" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/botoninicioregistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="botoninicioregistro"
+            android:text="INICIO" />
+    </RelativeLayout>
+
+</LinearLayout>
